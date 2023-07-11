@@ -1,5 +1,5 @@
-title: jekyll-rtd-theme
-description: Just another documentation theme compatible with GitHub Pages
+title: 懒蚂蚁
+description: 技术漫谈
 
 theme: null
 
@@ -7,6 +7,7 @@ theme: null
 #   compress: true
 #   dist: false
 #   shortcodes: true
+
 
 readme_index:
   with_frontmatter: true
