@@ -63,7 +63,7 @@ Netty作为一种高性能，异步事件驱动的网络应用程序框架，提
  bootstrap.handler(new ChannelInitializer<SocketChannel>() {
  @Override
  protected void initChannel(SocketChannel ch) throws Exception {
-      ch.pipeline().addLast(new ClientHandler());
+      ch.pipeline().addLast(new Encoder());
     }
  });
  ChannelFuture future = bootstrap.connect(host, port).sync();
